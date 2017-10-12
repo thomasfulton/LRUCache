@@ -44,7 +44,7 @@ public class LRUCache<T> {
     /// Creates a new `LRUCache` with the given maximum size.
     ///
     /// - Parameter maxSize: The max allowed cache size. If the cache attempts to grow larger than this it will delete the least recently used item.
-    init(maxSize: Int) {
+    public init(maxSize: Int) {
         self.maxSize = maxSize
     }
 
