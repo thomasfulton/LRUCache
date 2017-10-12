@@ -37,20 +37,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		080071FC1F8E5377002C6113 /* LRUCacheTest */ = {
+		080071FC1F8E5377002C6113 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				080071FD1F8E5377002C6113 /* LRUCacheTest.swift */,
 				080071FF1F8E5377002C6113 /* Info.plist */,
 			);
-			path = LRUCacheTest;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		0876FDC31F8D6BA8002C54DD = {
 			isa = PBXGroup;
 			children = (
 				08FD61301F8FDDCF0004C17F /* Source */,
-				080071FC1F8E5377002C6113 /* LRUCacheTest */,
+				080071FC1F8E5377002C6113 /* Tests */,
 				080071FB1F8E5377002C6113 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,7 +188,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LRUCacheTest/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -247,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = LRUCacheTest/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
