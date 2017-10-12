@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import LRUCache
 
 class LRUCacheTest: XCTestCase {
     func testCacheSize0() {
